@@ -17,11 +17,11 @@ BuildRequires : buildreq-distutils3
 Provides: hyperframe
 Provides: hyperframe-python
 Provides: hyperframe-python3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 ======================================
