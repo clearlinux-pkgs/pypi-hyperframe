@@ -4,7 +4,7 @@
 #
 Name     : pypi-hyperframe
 Version  : 6.0.1
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/5a/2a/4747bff0a17f7281abe73e955d60d80aae537a5d203f417fa1c2e7578ebb/hyperframe-6.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5a/2a/4747bff0a17f7281abe73e955d60d80aae537a5d203f417fa1c2e7578ebb/hyperframe-6.0.1.tar.gz
 Summary  : HTTP/2 framing layer for Python
@@ -14,14 +14,11 @@ Requires: pypi-hyperframe-license = %{version}-%{release}
 Requires: pypi-hyperframe-python = %{version}-%{release}
 Requires: pypi-hyperframe-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: hyperframe
-Provides: hyperframe-python
-Provides: hyperframe-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ======================================
@@ -64,7 +61,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641443540
+export SOURCE_DATE_EPOCH=1649695940
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
