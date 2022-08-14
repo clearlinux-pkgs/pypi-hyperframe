@@ -4,7 +4,7 @@
 #
 Name     : pypi-hyperframe
 Version  : 6.0.1
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/5a/2a/4747bff0a17f7281abe73e955d60d80aae537a5d203f417fa1c2e7578ebb/hyperframe-6.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5a/2a/4747bff0a17f7281abe73e955d60d80aae537a5d203f417fa1c2e7578ebb/hyperframe-6.0.1.tar.gz
 Summary  : HTTP/2 framing layer for Python
